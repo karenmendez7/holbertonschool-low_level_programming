@@ -4,6 +4,7 @@
  * Return: 0
  */
 int _abs(int)
+int x;
 {
 if (x < 0)
 {
