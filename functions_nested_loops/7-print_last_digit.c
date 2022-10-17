@@ -12,8 +12,8 @@ digit = x % 10;
 if (x <= 0)
 {
 r = digit * -1;
-_putchar (digit + '0');
-return (digit);
+_putchar (r + '0');
+return (r);
 }
 else
 {
