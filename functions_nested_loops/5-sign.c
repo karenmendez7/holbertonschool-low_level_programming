@@ -26,5 +26,4 @@ printf("%c -\n", n);
 
 return (-1);
 }
-
 }
