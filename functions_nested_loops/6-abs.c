@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _abs(int) - value of an integer
+ * _abs - value of an integer
+ * @x: int
  * Return: 0
  */
 int _abs(int x)
