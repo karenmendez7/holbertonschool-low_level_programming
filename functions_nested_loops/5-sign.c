@@ -15,7 +15,7 @@ return (1);
 
 if (n == 0)
 {
-printf("%d 0\n", n);
+printf("%d0\n", n);
 return (0);
 }
 if (n < 0)
