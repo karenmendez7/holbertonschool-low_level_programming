@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit
- * @x: var
+ * @x: numero
  * Return: last digit
  */
 int print_last_digit(int x)
@@ -11,13 +11,12 @@ digit = x % 10;
 
 if (x < 0)
 {
-digit * -1;
-_putchar (digit);
+_putchar (digit + '0');
 return (digit);
 }
 else
 {
-_putchar (digit);
+_putchar (digit + '0');
 return (digit);
 }
 }
