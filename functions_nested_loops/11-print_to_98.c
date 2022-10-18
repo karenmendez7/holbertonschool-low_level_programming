@@ -8,12 +8,12 @@
 void print_to_98(int n)
 {
 for (; n <= 98; n++)
-printf (n'\n');
+printf ("%d \n", n);
 if( n == 98)
 {
-printf ('98');
+printf ("%d 98 \n", n);
 }
 for (; n > 98; n--)
-printf (n'\n');
+printf ("%d \n", n);
 
 }
