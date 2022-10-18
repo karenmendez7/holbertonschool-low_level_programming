@@ -11,7 +11,7 @@ for (; n <= 98; n++)
 printf("%d\n", n);
 if (n == 98)
 {
-printf("%d 98\n", n);
+printf("%d\n", n);
 }
 for (; n > 98; n--)
 printf("%d\n", n);
