@@ -15,6 +15,8 @@ for (; i != 0; i++)
 for (c = i - 1; c >= 0; c--)
 
 j = i;
-i= c;
+i = c;
 *s = j;
+
+_putchar (i);
 }
