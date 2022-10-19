@@ -7,9 +7,9 @@
 void _puts(char *str)
 {
 int c = 0;
-for (c; str[c] != '\0'; c++)
+for (; str[c] != '\0'; c++)
 {
-_puthar(str[c]);
+_putchar(str[c]);
 }
 _putchar ('\n');
 }
