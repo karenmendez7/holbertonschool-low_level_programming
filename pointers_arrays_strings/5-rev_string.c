@@ -10,5 +10,5 @@ int i, c;
 for (i = 0; s[i] != 0; i++)
 {}
 for (c = i - 1; c >= 0; c--)
-return (0);
+_putchar (s[c]);
 }
