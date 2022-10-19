@@ -1,21 +1,27 @@
 #include "main.h"
 /**
- * rev_string - reverses a string
- * Return: 0
- * @s: var
+ * rev_string - Reverse a string.
+ * @s: String input.
+ * Return: no return.
  */
+
 void rev_string(char *s)
 {
-char *i = s;
-char c;
-char j;
-for (; i != 0; i++)
+	char *cadena = s;
+	char t;
 
-{}
-for (c = *i - 1; c >= 0; c--)
-j = *i;
-*i = *s;
-*s = j;
+	/*Fijar el puntero al final*/
+	for (; *(s); s++)
+	{
+	}
+	s--; /*no null*/
 
-_putchar (c);
+	 /*Bucle para cambiar las letras*/
+	for (; s >= cadena; s--)
+	{
+		t = *cadena;
+		*cadena  = *s;
+		*s = t;
+		cadena++;
+	}
 }
