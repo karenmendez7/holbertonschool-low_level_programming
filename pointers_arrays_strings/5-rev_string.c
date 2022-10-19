@@ -18,5 +18,5 @@ j = i;
 i = c;
 *s = j;
 
-_putchar (i);
+_putchar (c);
 }
