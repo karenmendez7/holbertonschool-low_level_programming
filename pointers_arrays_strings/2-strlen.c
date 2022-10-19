@@ -8,7 +8,10 @@
 int _strlen(char *s)
 {
 int i;
-for (i = 0; i != NULL; i++)
-if (s != NULL)
+while (*s != NULL)
+{
+s++;
+i++;
+}
 return (i);
 }
