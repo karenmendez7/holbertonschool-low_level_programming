@@ -12,7 +12,7 @@ char j;
 for (; i != 0; i++)
 
 {}
-for (c = i - 1; c >= 0; c--)
+for (c = *i - 1; c >= 0; c--)
 j = *i;
 *i = *s;
 *s = j;
