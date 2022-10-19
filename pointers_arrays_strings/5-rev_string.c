@@ -10,11 +10,10 @@ char i = *s;
 char c;
 char j;
 for (; i != 0; i++)
-
+j = i;
 {}
 for (c = i - 1; c >= 0; c--)
 
-j = i;
 i = c;
 *s = j;
 
