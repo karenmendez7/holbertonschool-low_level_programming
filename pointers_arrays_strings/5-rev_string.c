@@ -6,15 +6,15 @@
  */
 void rev_string(char *s)
 {
-char i = *s;
+char *i = s;
 char c;
 char j;
 for (; i != 0; i++)
-j = i;
+
 {}
 for (c = i - 1; c >= 0; c--)
-
-i = c;
+j = *i;
+*i = *s;
 *s = j;
 
 _putchar (c);
