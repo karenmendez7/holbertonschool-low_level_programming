@@ -6,7 +6,7 @@
  */
 void puts2(char *str)
 {
-int s;
+char s;
 for (s = 0; *(str[s]; s++))
 if (str % 2 == 0)
 _puts(str[s]);
