@@ -4,7 +4,7 @@
  * Return: 0
  * @str: string
  */
-puts2(char *str)
+void puts2(char *str)
 {
 int s;
 for (s = 0; *(str[s]; s++))
