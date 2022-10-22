@@ -17,6 +17,6 @@ i = (a - 1) / 2;
 for (i++; i < a; i++)
 {
 _putchar (str[i]);
-_putchar ('\n');
 }
+_putchar ('\n');
 }
