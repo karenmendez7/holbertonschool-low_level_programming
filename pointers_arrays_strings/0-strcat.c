@@ -13,7 +13,7 @@ for (i = 0; i = dest[i]; i++)
 
 ;
 
-for (i = 0; i = src[s]; i++)
+for (s = 0; s = src[s]; i++)
 {
 dest[i] = src[s];
 i++;
