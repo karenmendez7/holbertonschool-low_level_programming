@@ -7,8 +7,7 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int i;
-int n;
+int i, n;
 
 for (i = 0; dest[i]; i++)
 
