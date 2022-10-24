@@ -14,6 +14,6 @@ for (i = 0; dest[n]; i++)
 ;
 for (i = 0; src[n]; i++)
 {
-dest[n] = src[n]
+dest[n] = src[n];
 }
 }
