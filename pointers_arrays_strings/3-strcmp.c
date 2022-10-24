@@ -16,6 +16,6 @@ if (s1[s] == '\0')
 return (0);
 s++;
 }
-a = (s1[i] - s2[i]);
+a = (s1[s] - s2[s]);
 return (a);
 }
